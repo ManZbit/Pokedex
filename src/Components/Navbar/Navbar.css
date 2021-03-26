@@ -1,0 +1,79 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  align-self: flex-start;
+  height: 50px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #bad7f5;
+}
+
+.images {
+  display: flex;
+  align-content: center;
+}
+
+.pokedex__logo {
+  height: 40px;
+  margin-left: 15px;
+  transform: translateY(5px);
+}
+
+.pokedex__device {
+  height: 40px;
+  margin-left: 15px;
+  transform: translateY(5px);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-35px);
+  height: 32px;
+  width: 550px;
+  border-right: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  font-size: 15px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #1c62b9;
+}
+
+.search__button {
+  display: block;
+  transform: translateY(-35px);
+  height: 32px;
+  width: 64px;
+  background-color: rgb(248, 248, 248);
+  color: rgb(41, 41, 41);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid black;
+  border-left: 1px;
+}
+
+.search__icon {
+  justify-content: center;
+  height: 20px;
+  width: 17px;
+  margin-top: 4px;
+}
+
+.search__button:hover {
+  background-color: rgb(241, 241, 241);
+}

@@ -1,0 +1,42 @@
+.footer {
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1ms ease-in-out 1s both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.copyright {
+  padding-bottom: 26px;
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+span > a > img {
+  margin: 12px;
+  margin-bottom: -6px;
+}
+
+img {
+  height: 24px;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
